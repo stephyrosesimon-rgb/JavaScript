@@ -1,5 +1,5 @@
 //ConditionalStatements---if-else, Switch,if
-/*let age =15
+let age =15
 if (age>=18)
 {
     console.log("Eligible for voting")
@@ -67,10 +67,10 @@ else
 {
     console.log("Not Divisible by 3 and 5")
 }
-*/
+
 //Switch
 
-/*let day=8
+let day=8
 switch(day)
 {
     case 1:
@@ -206,18 +206,7 @@ switch(operator)
    default:
     console.log("Invalid Input")
 }
-*/
-let vowel1="e"
-switch(vowel1)
-{
-    case "a"||"e"||"i"||"o"||"u":
-        console.log("Its a vowel")
 
-        break
-    default:
-        console.log("Invalid input")
-
-}
 
 
     
