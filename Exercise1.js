@@ -304,7 +304,7 @@ console.log("The factorial of the no is "+factorial1(5))
 function reverse(a)
 {
     let sum=0
-    for(let num=a;num;num=parseInt(num/10))
+    for(let num=a;num;num=Math.floor(num/10))
     { 
         let r=num%10
         sum=sum*10+r
@@ -313,3 +313,53 @@ function reverse(a)
 }
 let s=reverse(2356)
 console.log(s)
+//23.write a function that accepts a no and return its last digit
+
+function last_digit(a)
+{
+    return a%10
+}
+console.log("last digit is "+last_digit(2376549))
+
+// write a function to reverse string
+//24.Write a function which returns the sum of the digits
+
+function sum_digits(num)
+{
+    let sum=0
+    while(num)
+    {
+       sum=sum+num%10 
+       num=Math.floor(num/10)
+
+    }
+    return sum
+}
+console.log("The sum of the digits "+sum_digits(123))
+//Write a program to check a no is palindrome or not
+function Palindrome(a)
+{
+    let sum=0
+    if(a<0)
+    {
+        return false
+    }
+    for(let num=a;num;num=Math.floor(num/10))
+    { 
+        let r=num%10
+        sum=sum*10+r
+    }
+   /* if(sum===a)
+    {
+        console.log("Its a palindrome no")
+    }
+    else
+    {
+         console.log("Its not a palindrome no")
+
+    }
+    */
+   return sum===a
+}
+console.log(Palindrome(323))
+
