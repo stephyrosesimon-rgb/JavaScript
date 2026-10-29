@@ -133,3 +133,4 @@ console.log(languages1.indexOf("malayalam"))
 //reverse:-used to reverse an array
 console.log(languages1.reverse())
 
+
