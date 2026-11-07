@@ -46,3 +46,5 @@ console.log(add(5,6))
 //const fs=require('fs')----This is the way to use FS with common js module.
 
 //import * as fs from 'node:fs---Tnis is the way to use FS with ES module.
+
+//Writing logs:- displaying messages or information in the console objects and its predefined methods are used to write logs.
