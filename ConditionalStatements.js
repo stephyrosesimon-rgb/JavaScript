@@ -1,5 +1,6 @@
 //ConditionalStatements---if-else, Switch,if
 let age =15
+//let age:number=20 in ts
 if (age>=18)
 {
     console.log("Eligible for voting")
